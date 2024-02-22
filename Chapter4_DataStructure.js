@@ -52,13 +52,13 @@
 // // → [5, 4, 3, 2, 1]
 
 //!3 task
-// const arrayToList = function (elements) {
-//   let list = null;
-//   for (let i = elements.length - 1; i >= 0; i--) {
-//     list = { value: elements[i], rest: list };
-//   }
-//   return list;
-// };
+// // const arrayToList = function (elements) {
+// //   let list = null;
+// //   for (let i = elements.length - 1; i >= 0; i--) {
+// //     list = { value: elements[i], rest: list };
+// //   }
+// //   return list;
+// // };
 
 // function arrayToList(array) {
 //     let list = null;
@@ -68,14 +68,14 @@
 //     return list;
 //   }
 
-// const listToArray = function (list) {
-//   let array = [];
-//   while (list.rest !== null) {
-//     array.push(list.value);
-//     list = list.rest;
-//   }
-//   return array;
-// };
+// // const listToArray = function (list) {
+// //   let array = [];
+// //   while (list.rest !== null) {
+// //     array.push(list.value);
+// //     list = list.rest;
+// //   }
+// //   return array;
+// // };
 
 // function listToArray(list) {
 //     let array = [];
@@ -85,23 +85,23 @@
 //     return array;
 //   }
 
-// const prepend = function (value, rest) {
-//   return { value: value, rest: rest };
-// };
+// // const prepend = function (value, rest) {
+// //   return { value: value, rest: rest };
+// // };
 
 // function prepend(value, list) {
 //     return {value, rest: list};
 //   }
-// const nth = function (list, num, count = 0) {
-//   if (count === num) {
-//     return list.value;
-//   } else {
-//     count += 1;
-//     if (list.rest === null) {
-//       return undefined;
-//     } else return nth(list.rest, num, count);
-//   }
-// };
+// // const nth = function (list, num, count = 0) {
+// //   if (count === num) {
+// //     return list.value;
+// //   } else {
+// //     count += 1;
+// //     if (list.rest === null) {
+// //       return undefined;
+// //     } else return nth(list.rest, num, count);
+// //   }
+// // };
 
 // function nth(list, n) {
 //     if (!list) return undefined;
